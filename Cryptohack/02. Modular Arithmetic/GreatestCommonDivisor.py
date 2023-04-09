@@ -1,7 +1,7 @@
-# a = bq + remain with some number q
+# a = bq + remain, with some number q
 def gcd(a,b):
     if( b > a):
-        a, b = b, a
+        a,b = b,a
 
     r = a % b
 
@@ -18,4 +18,4 @@ print( gcd(a,b) )
 
 a = 66528
 b = 52920
-print( gcd(a,b) )
+print("Flag: " + str(gcd(a,b)) )
