@@ -23,4 +23,4 @@ flag = ""
 for i in range(0, len(cipherordinal)):
     flag += chr(cipherordinal[i] ^ keyordinal[i % len(key)])
 
-print("Flag:" + flag)
+print("Flag: " + flag)
