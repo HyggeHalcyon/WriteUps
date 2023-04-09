@@ -1,3 +1,3 @@
 # WriteUps
 
-My Writeups for various CTFs or Challenges
+Writeups for my learning journey through completing various CTFs Challenges
