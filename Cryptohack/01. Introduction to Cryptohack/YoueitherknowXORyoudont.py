@@ -3,7 +3,7 @@
 ciphertext = "0e0b213f26041e480b26217f27342e175d0e070a3c5b103e2526217f27342e175d0e077e263451150104"
 knownplaintext = "crypto{"
 
-#converts into Decimal
+#convert to Decimal
 plainordinal = [ ord(i) for i in knownplaintext ]
 cipherordinal = [ i for i in bytes.fromhex(ciphertext) ]
 
