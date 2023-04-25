@@ -15,3 +15,7 @@ Writeups for my learning journey throughout completing various CTFs Challenges
 [nightmare](https://guyinatuxedo.github.io/index.html)   
 [ir0nstone](https://ir0nstone.gitbook.io/notes/)     
 [doublespeak](https://doublespeak.chat/#/)   
+
+## Research Interest     
+- AI security      
+- Healthcare security     
