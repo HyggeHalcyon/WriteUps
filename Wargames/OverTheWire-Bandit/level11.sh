@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
-USERNAME='bandit9'
+USERNAME='bandit11'
 HOST='bandit.labs.overthewire.org'
-PASSWORD='EN632PlfYiZbn3PhVK3XOGSlNInNE00t'
+PASSWORD='6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM'
 PORT=2220
 
-SOLUTION='strings -n 10 data.txt | tail -n 1'
+SOLUTION='strings data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m''
 
 sshpass -p ${PASSWORD} ssh -o StrictHostKeyChecking=no ${USERNAME}@${HOST} -p ${PORT} ${SOLUTION}

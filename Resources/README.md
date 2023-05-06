@@ -10,6 +10,7 @@
 [HTB academy](https://academy.hackthebox.com/login)  
 [Refactoring Guru](https://refactoring.guru)     
 [Begin RE](https://www.begin.re/the-workshop)   
+[Practical ROP gadgets Explanation](https://www.exploit-db.com/docs/english/28479-return-oriented-programming-(rop-ftw).pdf)
     
 ## Practical Platform
 [OverTheWire](https://overthewire.org/wargames/)   
