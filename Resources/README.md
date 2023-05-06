@@ -1,0 +1,27 @@
+## Reading Materials       
+[Hacktricks](https://book.hacktricks.xyz/welcome/readme)     
+[libc database](https://libc.blukat.me)     
+[CyberChef](https://gchq.github.io/CyberChef/)    
+[nightmare](https://guyinatuxedo.github.io/index.html)   
+[ir0nstone](https://ir0nstone.gitbook.io/notes/)     
+[doublespeak](https://doublespeak.chat/#/)   
+[binary exploitation 101](https://www.youtube.com/watch?v=wa3sMSdLyHw&list=PLHUKi1UlEgOIc07Rfk2Jgb5fZbxDPec94)           
+[Introduction to Reverse Engineering](https://0xinfection.github.io/reversing/)     
+[HTB academy](https://academy.hackthebox.com/login)  
+[Refactoring Guru](https://refactoring.guru)     
+[Begin RE](https://www.begin.re/the-workshop)   
+    
+## Practical Platform
+[OverTheWire](https://overthewire.org/wargames/)   
+[pwn.college](https://pwn.college)    
+[Cryptohack](https://cryptohack.org)   
+[PortSwigger](https://portswigger.net/web-security)   
+[Doublespeak AI](https://doublespeak.chat/#/)   
+[ROP Emporium](https://ropemporium.com)   
+[HackTheBox](https://app.hackthebox.com/login)      
+
+## Tools
+[Ghidra]()  
+[Ghidra WebAsm Plugin](https://github.com/nneonneo/ghidra-wasm-plugin)  
+[steghide]()  
+[]
