@@ -1,6 +1,10 @@
 #!/usr/bin/bash
 
-sshpass -p "NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL" ssh -o StrictHostKeyChecking=no bandit1@bandit.labs.overthewire.org -p 2220
+USERNAME='bandit1'
+HOST='bandit.labs.overthewire.org'
+PASSWORD='NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL'
+PORT=2220
 
-# solution:
-# $ cat < -
+SOLUTION='cat < -'
+
+sshpass -p ${PASSWORD} ssh -o StrictHostKeyChecking=no ${USERNAME}@${HOST} -p ${PORT} ${SOLUTION}

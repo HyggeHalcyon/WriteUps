@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
-USERNAME='bandit4'
+USERNAME='bandit7'
 HOST='bandit.labs.overthewire.org'
-PASSWORD='2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe'
+PASSWORD='z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S'
 PORT=2220
 
-SOLUTION='cd inhere/; cat < -file07'
+SOLUTION='cat data.txt | grep -n millionth'
 
 sshpass -p ${PASSWORD} ssh -o StrictHostKeyChecking=no ${USERNAME}@${HOST} -p ${PORT} ${SOLUTION}

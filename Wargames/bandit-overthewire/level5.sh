@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
-USERNAME='bandit4'
+USERNAME='bandit5'
 HOST='bandit.labs.overthewire.org'
-PASSWORD='2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe'
+PASSWORD='lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR'
 PORT=2220
 
-SOLUTION='cd inhere/; cat < -file07'
+SOLUTION='cd inhere/; find -readable -size 1033c; cat ./maybehere07/.file2'
 
 sshpass -p ${PASSWORD} ssh -o StrictHostKeyChecking=no ${USERNAME}@${HOST} -p ${PORT} ${SOLUTION}
