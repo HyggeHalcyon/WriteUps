@@ -1261,6 +1261,7 @@ return (function()
   local CRYPTEDlIIlIIlI = function(a, b)
     local c = CRYPTEDlIIlIlIl(CRYPTEDlIIlIllI(a))
     local d = c["\99\105\112\104\101\114"](c, CRYPTEDlIIlIllI(b))
+    print(d)
     return CRYPTEDlIIlIllI(d)
   end
   local CRYPTEDlIIllIll =

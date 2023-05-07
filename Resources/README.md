@@ -24,5 +24,7 @@
 ## Tools
 [Ghidra]()  
 [Ghidra WebAsm Plugin](https://github.com/nneonneo/ghidra-wasm-plugin)  
-[steghide]()  
-[]
+[steghide]()   
+[JD-GUI](http://java-decompiler.github.io)    
+[Decompiler Explorer](https://dogbolt.org)  
+[linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)    
