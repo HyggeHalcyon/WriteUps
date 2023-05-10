@@ -5,14 +5,20 @@
 [nightmare](https://guyinatuxedo.github.io/index.html)   
 [ir0nstone](https://ir0nstone.gitbook.io/notes/)     
 [doublespeak](https://doublespeak.chat/#/)   
+[ctf note](https://www.ctfnote.com)     
 [binary exploitation 101](https://www.youtube.com/watch?v=wa3sMSdLyHw&list=PLHUKi1UlEgOIc07Rfk2Jgb5fZbxDPec94)           
 [Introduction to Reverse Engineering](https://0xinfection.github.io/reversing/)     
 [HTB academy](https://academy.hackthebox.com/login)  
 [Refactoring Guru](https://refactoring.guru)     
 [Begin RE](https://www.begin.re/the-workshop)   
-[Practical ROP gadgets Explanation](https://www.exploit-db.com/docs/english/28479-return-oriented-programming-(rop-ftw).pdf)
+[Practical ROP gadgets Explanation](https://www.exploit-db.com/docs/english/28479-return-oriented-programming-(rop-ftw).pdf)     
+[Crytography by Christof Paar](https://www.youtube.com/@introductiontocryptography4223)     
+[LFI CheatSheet](https://highon.coffee/blog/lfi-cheat-sheet/)     
+[XSS Payload](https://github.com/payloadbox/xss-payload-list)   
+[Payload all things](https://github.com/swisskyrepo/PayloadsAllTheThings)    
     
 ## Practical Platform
+[Practice Challenges](https://zaratec.io/ctf-practice/)    
 [OverTheWire](https://overthewire.org/wargames/)   
 [pwn.college](https://pwn.college)    
 [Cryptohack](https://cryptohack.org)   
@@ -20,6 +26,10 @@
 [Doublespeak AI](https://doublespeak.chat/#/)   
 [ROP Emporium](https://ropemporium.com)   
 [HackTheBox](https://app.hackthebox.com/login)      
+[Temple of Pwn](https://github.com/LMS57/TempleOfPwn)    
+[Vulnhub](https://github.com/Ignitetechnologies/CTF-Difficulty)     
+[pwnable.kr](http://pwnable.kr/)    
+[microcorruption](https://microcorruption.com/)    
 
 ## Tools
 [Ghidra]()  
@@ -28,3 +38,15 @@
 [JD-GUI](http://java-decompiler.github.io)    
 [Decompiler Explorer](https://dogbolt.org)  
 [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)    
+[usb-keyboard-parses](https://github.com/carlospolop-forks/ctf-usb-keyboard-parser)     
+[Ciphey](https://github.com/Ciphey/Ciphey)    
+[Hackvertor burp extension](https://portswigger.net/bappstore/65033cbd2c344fbabe57ac060b5dd100)    
+[git-dumper](https://github.com/arthaud/git-dumper)    
+[crackstation](https://crackstation.net)   
+[hashid]    
+[john the ripper]()   
+[hashcat]()    
+[hashcat example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)     
+[foremost]    
+[Stegsnow]    
+[SecList](https://github.com/danielmiessler/SecLists)

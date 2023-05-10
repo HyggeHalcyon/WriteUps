@@ -1,0 +1,1 @@
+./col "`python -c "print '\xe8\x05\xd9\x1d' + '\x01\x01\x01\x01' * 4"`"
