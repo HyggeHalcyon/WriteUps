@@ -3,6 +3,5 @@ Libary for my learning journey throughout Cyber Security and Software Engineerin
 
 ## Research Interest
 - Malware Development  
-- Web3 Security   
 - AI Languange Model Security       
 - honeyPot Computing

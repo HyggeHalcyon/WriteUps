@@ -1,8 +1,0 @@
-version: "3.8"
-
-services:
-  nologin:
-    build: .
-    ports:
-      - "7879:80"
-    restart: unless-stopped
