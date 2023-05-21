@@ -4,8 +4,9 @@ from pwn import *
 # =========================================================
 #                          SETUP                         
 # =========================================================
-io = remote('challs.actf.co', 31302)
+# io = remote('challs.actf.co', 31302)
 exe = './gaga2'
+io = process(exe)
 elf = context.binary = ELF(exe, checksec=False)
 context.log_level = 'debug'
 
