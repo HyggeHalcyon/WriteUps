@@ -1,7 +1,8 @@
 # WriteUps
-Libary for my learning journey throughout Cyber Security and Software Engineering                
+Libary for my learning journey throughout Cyber Security            
 
 ## Research Interest
+- Machine Learning in detecting malicious behaviour   
 - Malware Development  
 - AI Languange Model Security       
-- honeyPot Computing
+- EDR & XDR

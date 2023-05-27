@@ -7,7 +7,8 @@ from pwn import *
 exe = './chall'
 elf = context.binary = ELF(exe, checksec=False)
 context.log_level = 'warn'
-host, port = 'chall.server', 1337
+host = 'chall.server'
+port = 1337
 
 
 # =========================================================
