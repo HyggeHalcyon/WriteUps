@@ -1,8 +1,10 @@
 # WriteUps
-Libary for my learning journey throughout Cyber Security            
+Libary for my learning journey throughout Cyber Security. CTF documentation can be found [here](hyggehalcyon.gitbook.io/page/ctfs/)            
 
 ## Research Interest
-- Machine Learning in detecting malicious behaviour   
-- Malware Development  
+- Mobile application security   
+- Game Hacking   
+- Machine Learning in detecting malicious behaviour and anomalies and correlate to alerts and incident.
+- EDR & XDR   
 - AI Languange Model Security       
-- EDR & XDR
+- Malware Development  
