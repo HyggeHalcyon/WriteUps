@@ -6,10 +6,10 @@ from pwn import *
 # =========================================================
 exe = './chall'
 elf = context.binary = ELF(exe, checksec=True)
-rop = ROP(exe)
+libc = '/lib/x86_64-linux-gnu/libc.so.6'
+libc = ELF(libc, checksec=False)
 context.log_level = 'debug'
-host = 'chall.server'
-port = 1337
+host, port = 'chall.server', 1337
 
 def start(argv=[]):
     if args.GDB:
@@ -24,14 +24,10 @@ init-pwndbg
 '''.format(**locals())
 
 # =========================================================
-#                         ADDRESSES
-# =========================================================
-win = 0x1337
-
-# =========================================================
 #                         EXPLOITS
 # =========================================================
 io = start()
+rop = ROP(exe)
 
 # Got manually through cyclic gdb-pwndbg
 offset = 1337
@@ -39,7 +35,7 @@ offset = 1337
 # flattening  payload here
 payload = flat({
     offset: [
-        win
+        0x1337
     ]
 })
 
