@@ -4,12 +4,12 @@ from pwn import *
 # =========================================================
 #                          SETUP                         
 # =========================================================
-exe = './chall'
+exe = './'
 elf = context.binary = ELF(exe, checksec=True)
 libc = '/lib/x86_64-linux-gnu/libc.so.6'
 libc = ELF(libc, checksec=False)
 context.log_level = 'debug'
-host, port = 'chall.server', 1337
+host, port = '', 1337
 
 def start(argv=[]):
     if args.GDB:
