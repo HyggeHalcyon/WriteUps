@@ -1,5 +1,5 @@
-#Extended Euclidian Algorithm writes a GCD between two numbers as a Linear Combinatio
-#Linear Combination can be written as a * u + b * v = gcd(a,b)
+# Extended Euclidian Algorithm writes a GCD between two numbers as a Linear Combination
+# Linear Combination can be written as a * u + b * v = gcd(a,b)
 # http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html
 # https://captainmich.github.io/programming_language/CTF/Challenge/CryptoHack/general.html#math-extended-gcd
 

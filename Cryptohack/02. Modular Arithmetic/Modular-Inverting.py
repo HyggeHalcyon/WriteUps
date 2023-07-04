@@ -4,7 +4,9 @@
 # this is said the multiplicative inverse of g
 # Example: 7 * 8 = 56 ≡ 1 mod 11
 
-number = 3
-modulus = 13
+def modular_inverting(g, p):
+    for d in range(100):
+        if ( g * d % p == 1):
+            return d
 
-d = 
+print(modular_inverting(3, 13))
