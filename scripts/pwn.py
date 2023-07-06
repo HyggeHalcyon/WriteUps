@@ -6,12 +6,12 @@ from pwn import *
 # =========================================================
 exe = './'
 elf = context.binary = ELF(exe, checksec=True)
-libc = '/lib/x86_64-linux-gnu/libc.so.6'
+libc = './libc.so.6'
 libc = ELF(libc, checksec=False)
 context.log_level = 'debug'
 host, port = '', 1337
 
-def start(argv=[]):
+def init(argv=[]):
     if args.GDB:
         return gdb.debug([exe] + argv, gdbscript=gdbscript)
     elif args.REMOTE:
@@ -26,7 +26,7 @@ init-pwndbg
 # =========================================================
 #                         EXPLOITS
 # =========================================================
-io = start()
+io = init()
 rop = ROP(exe)
 
 # Got manually through cyclic gdb-pwndbg

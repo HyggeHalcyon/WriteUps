@@ -7,3 +7,7 @@ For challenges I've created, please follow this [repo](https://github.com/HyggeH
 - Game Hacking   
 - Mobile application security   
 - Malware Development  
+
+## Tools
+| Name | Category | Description |
+| --- | :---: | --- |

@@ -2,8 +2,8 @@
 ## ROP Emporium
 | Challenge | x86 | x64 | ARMv5 | MIPS |  Description | 
 | --- | :---: | :---: | :---: | :---: | --- |
-| ret2win | ✅ | ✅ | ❌ | ❌ | Description | 
-| split | ✅ | ✅ | ❌ | ❌ | Description | 
+| ret2win | ✅ | ✅ | ❌ | ❌ | Classical ret2win | 
+| split | ✅ | ✅ | ❌ | ❌ | ROP with one parameter | 
 | callme | ✅ | ✅ | ❌ | ❌ | Description | 
 | write4 | ❌ | ❌ | ❌ | ❌ | Description | 
 | badchars | ❌ | ❌ | ❌ | ❌ | Description | 
