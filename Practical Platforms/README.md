@@ -1,7 +1,7 @@
 # Practical Platforms 
 ## ROP Emporium
 | Challenge | x86 | x64 | ARMv5 | MIPS |  Description | 
-| --- | :---: | :---: | :---: | :---: | :---: |
+| --- | :---: | :---: | :---: | :---: | --- |
 | ret2win | ✅ | ✅ | ❌ | ❌ | Description | 
 | split | ✅ | ✅ | ❌ | ❌ | Description | 
 | callme | ✅ | ✅ | ❌ | ❌ | Description | 
@@ -13,14 +13,14 @@
 
 ## PicoGym
 | Challenge | Category | Description | 
-| --- | :---: | :---: |
+| --- | :---: | --- |
 | Cache Me Outside | Pwn | UAF tcache poisoning |
 | Here's a LIBC | Pwn | ret2libc |
 | Stonks | Pwn | read from stack format string |   
 
 ## TryHackMe
 | Room | Category | Description | 
-| --- | :---: | :---: |
+| --- | :---: | --- |
 | PWN101 | Pwn | basic stack-based challenges  | 
 | Reversing ELF | Rev | unsolved  | 
 
