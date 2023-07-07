@@ -16,7 +16,7 @@
 | --- | :---: | --- |
 | Cache Me Outside | Pwn | UAF tcache poisoning |
 | Here's a LIBC | Pwn | ret2libc |
-| Stonks | Pwn | read from stack format string |   
+| Stonks | Pwn | format string leak |   
 
 ## TryHackMe
 | Room | Category | Description | 
